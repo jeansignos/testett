@@ -1,0 +1,16 @@
+{
+  "name": "auto-twitter-dm",
+  "description": "Script to automate direct message for new followers using APS schedular",
+  "image": "heroku/python",
+  "keywords": ["python", "twitter"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "clock": {
+      "quantity": 1
+    }
+  }
+}
